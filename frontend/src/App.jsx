@@ -16,6 +16,20 @@ const App = () => {
   <li>React </li>
   <li>Bootstrap </li>
 </ul> 
+<form >
+    
+    <label htmlFor="name">Name:</label>
+    <input type="text" id="name" placeholder="Enter your name"/><br/><br/>
+
+    <label htmlFor="email">Email:</label>
+    <input type="email" id="email" placeholder="Enter your email"/><br/><br/>
+
+    <label htmlFor="message">Message:</label><br/>
+    <textarea id="message" rows="5" cols="30"></textarea><br/><br/>
+
+    <button type="submit" id="submitBtn">Send</button>
+
+</form>
     </div>
   )
 }
